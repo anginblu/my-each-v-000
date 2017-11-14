@@ -7,10 +7,11 @@ def my_each(array)
         yield(array[i])
         i = i + 1
       end
-array
+    array
+    
   else
     raise "This block should not run!"
-    
+
   end
 
 end
